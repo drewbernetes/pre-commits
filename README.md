@@ -4,8 +4,8 @@ This pre-commit has been designed to use a local copy of Trivy to run trivy scan
 I did consider using Docker but decided against it for the following reasons:
 
 1. It requires Docker to be available on a system which may not be the case in all scenarios.
-2. It supports using a local copy of Trivy which the user can ensure matches what's expected in their pipelines.
-3. Because I made this repo and I decided to :smile:.
+2. It supports using a local copy of Trivy which the user can then ensure has a version match with what's expected in their pipelines.
+3. Because I made this repo and I decided to do ti this way :smile:.
 
 ## Usage
 **[Install trivy](https://github.com/aquasecurity/trivy/releases)** - that's step 1. If you don't have it, it ain't working!
@@ -30,4 +30,4 @@ And that's it. It's simple, it's straightforward, and now you can scan things un
 
 ## Why do I need this?
 
-Because you forget to run trivy against your code before pushing again, didn't you? :wink:. I know I do sometimes!
+Because you forgot to run `trivy` against your code before pushing again, didn't you? :wink:. I know I do sometimes!
