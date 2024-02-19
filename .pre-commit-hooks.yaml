@@ -1,6 +1,14 @@
 ---
 - id: trivy
   name: trivy
+  description: Runs a local install of trivy with the target command supplied.
   entry: trivy
+  language: system
+  pass_filenames: false
+
+- id: docker
+  name: docker
+  description: Runs docker to build an image locally.
+  entry: scripts/docker-hook.sh build
   language: system
   pass_filenames: false
