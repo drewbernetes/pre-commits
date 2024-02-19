@@ -67,4 +67,4 @@ That's it. You can pass in a bunch of args to supply if you like but the default
 
 ## Why do I need this?
 
-Because you forgot to run `trivy` against your code before pushing again, didn't you? :wink:. I know I do sometimes!
+Because you need to know your image builds before attempting to do it in your CI.
