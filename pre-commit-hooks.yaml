@@ -1,0 +1,5 @@
+- id: trivy
+  name: trivy
+  entry: trivy
+  language: system
+  pass_filenames: false
