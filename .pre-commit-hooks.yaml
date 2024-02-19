@@ -10,5 +10,5 @@
   name: docker
   description: Runs docker to build an image locally.
   entry: scripts/docker-hook.sh build
-  language: system
+  language: script
   pass_filenames: false
